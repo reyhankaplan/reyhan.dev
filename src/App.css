@@ -1,0 +1,92 @@
+:root {
+  --font-family: 'Inconsolata', monospace;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: #dddddd;
+  background: #000000;
+
+  font-family: var(--font-family);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+*::selection {
+  background-color: rgb(63 81 181 / 37%);
+}
+
+main {
+  margin-bottom: 100px;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+
+  font-size: 2.4rem;
+}
+
+p {
+  margin: 0 0 20px 0;
+
+  color: #aaaaaa;
+
+  font-size: 1.8rem;
+}
+
+a {
+  color: #aaaaaa;
+
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: rgb(63 81 181 / 37%);
+}
+
+ul,
+li {
+  all: initial;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+
+  margin: 0 -5px;
+}
+
+.social-link {
+  padding: 0 5px;
+}
+
+.email-box {
+  display: inline-block;
+
+  margin-bottom: 10px;
+}
