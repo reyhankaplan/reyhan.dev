@@ -16,7 +16,10 @@ export const App = (): ReactElement => (
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/reyhankaplan" className="social-link">
+        <a
+          href="https://www.linkedin.com/in/reyhankaplan"
+          className="social-link"
+        >
           LinkedIn
         </a>
       </li>
