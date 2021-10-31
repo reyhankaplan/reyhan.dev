@@ -11,12 +11,12 @@ export const App = (): ReactElement => (
     </a>
     <ul>
       <li>
-        <a href="https://github.com/ryhnnl" className="social-link">
+        <a href="https://github.com/reyhankaplan" className="social-link">
           GitHub
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/ryhnnl" className="social-link">
+        <a href="https://www.linkedin.com/in/reyhankaplan" className="social-link">
           LinkedIn
         </a>
       </li>
