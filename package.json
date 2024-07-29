@@ -3,10 +3,10 @@
   "version": "0.1.1",
   "private": true,
   "description": "Source code of my personal website",
-  "homepage": "https://github.com/ryhnnl/ryhnnl.github.io",
-  "repository": "github:ryhnnl/reyhan.dev.git",
+  "homepage": "https://github.com/reyhankaplan/reyhan.dev",
+  "repository": "github:reyhankaplan/reyhan.dev",
   "license": "GPL-3.0",
-  "author": "Reyhan Unal <rreyhanunal@gmail.com> (https://reyhan.dev)",
+  "author": "Reyhan Kaplan <me@reyhan.dev> (https://reyhan.dev)",
   "scripts": {
     "prestart": "npm run format && npm run lint",
     "start": "vite",
